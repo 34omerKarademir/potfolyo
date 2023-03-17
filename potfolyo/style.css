@@ -1,0 +1,235 @@
+body{
+    background-color: rgb(171, 214, 200);
+    height: 100%;
+}
+
+nav {
+    width: 70%;
+    background-color: rgb(44, 39, 39);
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 0;
+    z-index:2;
+}
+
+ol {
+      display: flex;
+      justify-content:center;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      height: 40px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+ol li{
+
+    padding-right: 15px;
+    padding-top: 20px;
+    
+}
+
+ol li a{
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+
+}
+a:hover{
+
+    
+    color:rgb(50, 231, 120);
+    font-size: 16px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+    width: 70%;
+}
+
+.footer{
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("./galeri/footerResim.jpg");
+}
+
+
+.üst{
+
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    padding-top: 25px;
+
+}
+.alt{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alt hr{
+    width: 90%;
+}
+li span{
+    padding-right: 15px;
+}
+body{
+    margin: 0;
+}
+
+li i {
+    padding-right: 12px;
+}
+
+.banner{
+    width: 100%;
+    height:400px;
+    background-image: url(./galeri/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yazi{
+    z-index: 1;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transform: translate(-120%, -50%);
+    color: white;
+    font-size: 40px;
+}
+.yazibir{
+    z-index: 1;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-130%, -50%);
+    color: white;
+    font-size: 40px;
+}
+.yaziiki{
+    z-index: 1;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-120%, -50%);
+    color: white;
+    font-size: 40px;
+}
+
+.projelerim{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.sol{
+background-color: orange;
+width:50%;
+background-repeat: no-repeat;
+height:400px;
+}
+
+.sag{
+background-color: rgb(212, 212, 212);
+width:50%;
+height: 400px;
+text-align: center;
+}
+.sagyazi{
+    padding-top: 30px;
+}
+
+.projelerimyazisi{
+    width:100% ;
+    height: auto;
+    background-color:  rgb(44, 39, 39);
+    color: white;
+    
+}
+ .projelerimyazisi p {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.bir{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.cv{
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.solcv{
+    width: 40%;
+    background-color: rgb(184, 181, 181);
+}
+.sagcv{
+    width: 60%;
+    background-color: white;
+}
+
+.solcv hr{
+
+    width: 90%;
+    color: black;
+    background-color: black;
+    margin-right: 30px;
+    padding-top: 1px;
+
+
+    }
+
+.sagcv hr{
+
+    width: 80%;
+    color: black;
+    background-color: black;
+    margin-left: 5px;    
+    padding-top: 1px;
+    }
+ .soldivhizalama{
+
+    margin-left: 35px;
+ }       
+
+ .sagdivhizalama{
+
+    margin-left: 20px;
+    width: 90%;
+ }    
+
+ .cvyazisi{
+    width:100% ;
+    height: auto;
+    background-color:  rgb(44, 39, 39);
+    color: white;
+    
+}
+ .cvyazisi p {
+    font-size: 40px;
+    text-align: center;
+
+}
